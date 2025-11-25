@@ -87,7 +87,7 @@ npm run build
 
 ## 🌐 **Live Demo**
 
-*(Aryanwebfolio.netlify.app)*
+*(https://www.linkedin.com/in/aryan-kumar-5183a4257/)*
 
 ```
 https://aryanwebfolio.netlify.app/
