@@ -87,7 +87,7 @@ npm run build
 
 ## 🌐 **Live Demo**
 
-*(Add your GitHub Pages link once deployed)*
+*(aryanwebfolio.netlify.app)*
 
 ```
 https://aryan2005singh.github.io/Aryan-Portfolio
