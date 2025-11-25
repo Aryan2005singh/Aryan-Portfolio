@@ -87,12 +87,7 @@ npm run build
 
 ## 🌐 **Live Demo**
 
-*(https://www.linkedin.com/in/aryan-kumar-5183a4257/)*
-
-```
-https://aryanwebfolio.netlify.app/
-```
-
+*(https://aryanwebfolio.netlify.app/)*
 ---
 
 ## 🤝 **Contact**
