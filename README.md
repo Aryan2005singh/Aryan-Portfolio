@@ -95,12 +95,6 @@ https://aryan2005singh.github.io/Aryan-Portfolio
 
 ---
 
-## 📄 **Resume**
-
-Click the **Download Resume** button on the portfolio or add your resume here.
-
----
-
 ## 🤝 **Contact**
 
 If you want to collaborate or discuss a project:
@@ -116,9 +110,4 @@ If you want to collaborate or discuss a project:
 If you like this portfolio, consider giving it a **star ⭐ on GitHub**.
 Helps a lot.
 
----
 
-If you want, I can **personalize this README** even more —
-like adding your **skills, projects, badges, screenshots**, or even a **cool GitHub stats section**.
-
-Just say “customize it”.
