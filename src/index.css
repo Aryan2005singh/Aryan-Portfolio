@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Futuristic Portfolio Design System - Aryan Kumar */
+
+@layer base {
+  :root {
+    /* Primary Navy Blue Palette */
+    --background: 234 39% 8%;
+    --background-secondary: 234 31% 12%;
+    --foreground: 0 0% 98%;
+
+    /* Card & Surface Colors */
+    --card: 234 31% 12%;
+    --card-foreground: 0 0% 98%;
+    --card-glass: 234 31% 12% / 0.1;
+
+    /* Popover */
+    --popover: 234 31% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Neon Accent Colors */
+    --primary: 180 100% 50%;
+    --primary-foreground: 234 39% 8%;
+    --primary-glow: 180 100% 50% / 0.5;
+
+    --secondary: 320 100% 50%;
+    --secondary-foreground: 0 0% 98%;
+    --secondary-glow: 320 100% 50% / 0.5;
+
+    /* Muted Colors */
+    --muted: 234 20% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    /* Accent */
+    --accent: 234 31% 18%;
+    --accent-foreground: 0 0% 98%;
+
+    /* Status Colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Borders & Inputs */
+    --border: 234 20% 25%;
+    --input: 234 20% 20%;
+    --ring: 180 100% 50%;
+
+    /* Design System */
+    --radius: 1rem;
+
+    /* Custom Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    --gradient-hero: linear-gradient(135deg, hsl(234 39% 8%), hsl(234 31% 12%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card-glass)), hsl(234 20% 15% / 0.8));
+    
+    /* Glow Effects */
+    --glow-primary: 0 0 20px hsl(var(--primary-glow));
+    --glow-secondary: 0 0 20px hsl(var(--secondary-glow));
+    --glow-subtle: 0 4px 20px hsl(234 31% 12% / 0.4);
+
+    /* Glass Effects */
+    --glass-backdrop: blur(20px);
+    --glass-border: 1px solid hsl(var(--border));
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    /* Sidebar (not used but keep for compatibility) */
+    --sidebar-background: 234 39% 8%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 180 100% 50%;
+    --sidebar-primary-foreground: 234 39% 8%;
+    --sidebar-accent: 234 31% 18%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 234 20% 25%;
+    --sidebar-ring: 180 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glass Card Effect */
+  .glass-card {
+    background: var(--gradient-card);
+    backdrop-filter: var(--glass-backdrop);
+    border: var(--glass-border);
+    box-shadow: var(--glow-subtle);
+  }
+
+  /* Neon Button Effects */
+  .btn-neon-primary {
+    background: var(--gradient-primary);
+    box-shadow: var(--glow-primary);
+    transition: var(--transition-smooth);
+  }
+
+  .btn-neon-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--glow-primary), 0 8px 25px hsl(var(--primary-glow));
+  }
+
+  .btn-neon-secondary {
+    background: linear-gradient(135deg, hsl(var(--secondary)), hsl(320 100% 40%));
+    box-shadow: var(--glow-secondary);
+    transition: var(--transition-smooth);
+  }
+
+  .btn-neon-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--glow-secondary), 0 8px 25px hsl(var(--secondary-glow));
+  }
+
+  /* Floating Animation */
+  .floating {
+    animation: floating 6s ease-in-out infinite;
+  }
+
+  @keyframes floating {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  /* Glow Pulse Animation */
+  .glow-pulse {
+    animation: glow-pulse 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow-pulse {
+    from { 
+      box-shadow: 0 0 20px hsl(var(--primary-glow));
+    }
+    to { 
+      box-shadow: 0 0 40px hsl(var(--primary-glow)), 0 0 60px hsl(var(--primary-glow));
+    }
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Blur Animation */
+  .blur-in {
+    filter: blur(10px);
+    opacity: 0;
+    transition: filter 1s ease-out, opacity 1s ease-out;
+  }
+
+  .blur-in.active {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
