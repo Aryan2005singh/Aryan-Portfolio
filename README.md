@@ -47,7 +47,7 @@ One-click resume download integrated.
 
 ## 🔥 Portfolio Preview
 
-![Portfolio Screenshot](https://github.com/Aryan2005singh/Aryan-Portfolio/blob/69631a63050593f7d73bf69aca783a0f566c5362/preview.png)
+![Portfolio Screenshot]()
 
 
 ```
