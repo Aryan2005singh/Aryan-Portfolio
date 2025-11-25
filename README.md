@@ -1,10 +1,3 @@
-Alright bro, straight-up **clean, professional, portfolio-level README** bana diya है.
-No fluff, no cringe — बस sharp, presentable, GitHub-ready.
-
-You can copy-paste this directly into your `README.md`.
-
----
-
 # **💼 Aryaan Portfolio**
 
 A modern, visually polished personal portfolio built using **React + Vite**, featuring smooth animations, responsive design, and a clean UI.
@@ -52,7 +45,10 @@ One-click resume download integrated.
 
 ## 📸 **Preview**
 
-*(Add screenshot link later if you want — optional)*
+## 🔥 Portfolio Preview
+
+![Portfolio Screenshot](/mnt/data/9a19c5a2-f52f-4cbd-8da8-906b462598d8.png)
+
 
 ```
 /assets/preview.png
@@ -109,9 +105,9 @@ Click the **Download Resume** button on the portfolio or add your resume here.
 
 If you want to collaborate or discuss a project:
 
-* **Email**:
+* **Email**: aryan70912@gmail.com
 * **GitHub**: [https://github.com/Aryan2005singh](https://github.com/Aryan2005singh)
-* **LinkedIn**: *(Add your link)*
+* **LinkedIn**: *(https://www.linkedin.com/in/aryan-kumar-5183a4257/)*
 
 ---
 
