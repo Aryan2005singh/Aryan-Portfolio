@@ -1,0 +1,109 @@
+# **💼 Aryaan Portfolio**
+
+A modern, visually polished personal portfolio built using **React + Vite**, featuring smooth animations, responsive design, and a clean UI.
+This portfolio highlights my work, experience, skills, and projects in a minimal yet impactful way.
+
+---
+
+## 🚀 **Tech Stack**
+
+* **React.js**
+* **Vite**
+* **Tailwind CSS**
+* **GSAP Animations**
+* **Lucide Icons**
+
+---
+
+## 🎯 **Features**
+
+### ✅ Fully Responsive
+
+Looks clean on **mobile, tablet, and desktop**.
+
+### ✅ GSAP Smooth Animations
+
+Scrolling, fade-ins, hover effects — everything feels premium.
+
+### ✅ Clean & Modern UI
+
+Glassmorphism + gradient accents + minimal layout.
+
+### ✅ Downloadable Resume Button
+
+One-click resume download integrated.
+
+### ✅ Portfolio Sections
+
+* About Me
+* Skills
+* Projects
+* Contact
+* Stats section
+
+---
+
+## 📸 **Preview**
+
+## 🔥 Portfolio Preview
+
+![Portfolio Screenshot](https://github.com/Aryan2005singh/Aryan-Portfolio/blob/ea8a916b4c844933b7276542d4af03eb538da28c/screenshot.png)
+
+
+```
+/assets/preview.png
+```
+
+---
+
+## 📦 **Installation & Setup**
+
+### Clone the repo:
+
+```bash
+git clone https://github.com/Aryan2005singh/Aryan-Portfolio.git
+cd Aryan-Portfolio
+```
+
+### Install dependencies:
+
+```bash
+npm install
+```
+
+### Run development server:
+
+```bash
+npm run dev
+```
+
+### Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 **Live Demo**
+
+*(https://aryanwebfolio.netlify.app/)*
+
+---
+
+## 🤝 **Contact**
+
+If you want to collaborate or discuss a project:
+
+* **Email**: aryan70912@gmail.com
+* **GitHub**: [https://github.com/Aryan2005singh](https://github.com/Aryan2005singh)
+* **LinkedIn**: *(https://www.linkedin.com/in/aryan-kumar-5183a4257/)*
+
+---
+
+## ⭐ **Support**
+
+If you like this portfolio, consider giving it a **star ⭐ on GitHub**.
+Helps a lot.
+
+
