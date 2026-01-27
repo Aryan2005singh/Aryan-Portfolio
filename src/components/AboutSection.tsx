@@ -76,7 +76,7 @@ const AboutSection = () => {
               <div className="w-64 sm:w-80 h-64 sm:h-80 rounded-full glass-card p-2 glow-pulse">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                   <img
-                    src="profile pic.jpeg"
+                    src="pics.jpeg"
                     alt="Aryan Kumar"
                     className="w-full h-full object-cover rounded-full bg-black transition duration-500"
                   />
