@@ -8,28 +8,30 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard built with MERN stack for real-time data analysis and visualization. Features dynamic charts, filtering capabilities, and responsive design.",
-    techStack: ["React", "Node.js", "MongoDB", "D3.js", "Express"],
-    github: "https://github.com/Aryan2005singh",
-    demo: "#",
-    image: "📊"
+    title: "Career-Pilot-AI",
+    description:
+    "AI-powered interview platform built with the MERN stack that generates role-specific interview questions through resume parsing and prompt engineering, with real-time AI evaluation, feedback, scoring, and performance insights.",
+    techStack: ["React", "Node.js", "MongoDB", "OpenAI API", "Express"],
+    github: "https://github.com/Aryan2005singh/Interview-AI",
+    demo: "https://carrierpilotai.netlify.app/",
+    image: "🤖",
   },
   {
     title: "SidCup Family Golf Website",
     description: "Modern, responsive website for a golf course featuring smooth animations, interactive elements, and optimized user experience.",
     techStack: ["HTML5", "CSS3", "JavaScript", "GSAP", "Responsive Design"],
-    github: "https://github.com/Aryan2005singh",
-    demo: "#",
+    github: "https://github.com/Aryan2005singh/SidCup-Family-Golf",
+    demo: "https://golfbooking-web.netlify.app/",
     image: "⛳"
   },
   {
-    title: "Task Management System",
-    description: "Full-stack application for project and task management with real-time collaboration features and intuitive user interface.",
-    techStack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Socket.io"],
-    github: "https://github.com/Aryan2005singh",
-    demo: "#",
-    image: "📋"
+    title: "CodeQA",
+    description:
+    "RAG-powered AI web application that enables users to upload a codebase and ask natural language questions, delivering answers backed by exact code snippets, file paths, and line numbers for accurate code understanding.",
+    techStack: ["React", "TypeScript", "PostgreSQL", "pgvector", "Google Gemini"],
+    github: "https://github.com/Aryan2005singh/Codebase-Q-A",
+    demo: "https://kodcompass.netlify.app/",
+    image: "🧠",
   }
 ];
 
