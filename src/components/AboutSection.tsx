@@ -127,7 +127,7 @@ const AboutSection = () => {
 
             {/* Resume Button */}
             <div className="mt-6 sm:mt-8 flex justify-center lg:justify-start">
-              <a href="/resume.pdf" download>
+              <a href="/Aryan_Kumar_Resume.pdf" download>
                 <Button variant="neon" size="lg" className="px-6 sm:px-8 py-3">
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
